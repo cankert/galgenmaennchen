@@ -6,7 +6,6 @@ class Galgenmaennchen {
         loesungswort = wortZuRaten;
         System.out.println("Los gehts, das gesuchte Wort hat " +wortZuRaten.length() + " Buchstaben. Tippe einen Buchstaben um das Wort zu erraten: ");
 
-
         for (int i = 0; i < loesungswort.length(); i++){
             result.append("-");
         }
